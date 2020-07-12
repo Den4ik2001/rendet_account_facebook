@@ -1,0 +1,711 @@
+@font-face {
+	font-family: "Oswald-VariableFont_wght";
+	src: url(Font/Oswald-VariableFont_wght.ttf);
+}
+
+body {
+	margin: 0px;
+}
+header {
+	width: 100%;
+	height: 270px;
+	background-color: #000078;
+}
+
+.icon_header {
+	background-image: url(Image/Logo_fb.png);
+	background-size: 180px 180px;
+	background-repeat: no-repeat;
+	width: 180px;
+	height: 180px;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+header h1 {
+	padding-top: 20px;
+	margin: 0px 300px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 60px;
+	font-family: "Oswald-VariableFont_wght";
+}
+
+header h2 {
+	margin: 0px 300px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 60px;
+}
+
+#doc_time {
+	color: #f0ba18;
+	font-size: 20px;
+	float: right;
+	margin: -10px 10px 0px 0px;
+}
+
+main {
+	width: 100%;
+	height: 1000px;
+	background-color: #060038;
+}
+
+footer {
+	width: 100%;
+	height: 150px;
+	background-color: #000000;
+}
+
+
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: #993300;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	font-size: 16px;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul li:nth-child(1){
+	border: 0px;
+}
+
+nav ul li {
+	padding: 15px 35px;
+	border-left:1px solid #000000;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);
+    text-shadow: #000000 0 0 2px;
+}
+
+
+nav ul li:hover {
+    background: #bb0c21;
+    color: #fff;
+}
+nav ul li > a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    padding: 1.5px 0px;
+    color: #000;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(20deg);
+}
+nav ul li > a:hover {
+    color: #fff;
+}
+
+nav ul li a {
+	color: #cc9900;
+	text-decoration: none;
+}
+
+
+.header_social_networks {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: -10px;
+	margin-right: 20px;
+}
+
+.header_social_networks a img {
+	width: 40px;
+	height: 40px;
+}
+
+.header_social_networks a {
+	width: 40px;
+	height: 40px;
+	margin-left: 15px;
+	float: right;
+}
+
+.information {
+	display: flex;
+}
+
+.information-text {
+	bottom: 1px solid black;
+	background-color: #0c0546;
+	margin: 20px;
+	margin-right: 25px;
+	border-radius: 20px; 
+	margin-top: 25px;
+}
+
+.information-text a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.information img {
+	width: 370px;
+	height: 220px;
+	border-radius: 20px;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-top: 25px; 
+	margin-bottom: 0px; 
+}
+
+.information h2 {
+	text-align: center;
+	font-size: 35px;
+	color: #ffbf00;
+	text-shadow: #ff1800 0 0 2px;
+}
+
+.information p {
+	font-size: 18px;
+	color: #ffffff;
+	margin: 20px;
+	text-align: justify;
+}
+
+.information ul {
+	font-size: 20px;
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+@media(max-width: 1280px){
+	nav ul{
+	font-size: 15px; 
+}
+nav ul li {
+	padding: 15px 25px;
+	}
+header {
+	height: 240px;
+}
+	header h1, header h2 {
+		font-size: 47px;
+	}
+	.icon_header {
+	background-image: url(Image/Logo_fb.png);
+	background-size: 140px 140px;
+	background-repeat: no-repeat;
+	width: 140px;
+	height: 140px;
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+.information img {
+	width: 300px;
+	height: 210px;
+	border-radius: 20px;
+	margin: 10px;
+	margin-right: 0px;
+	margin-top: 30px; 
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+}
+
+@media(max-width: 1114px){
+	nav {
+		height: 45px;
+	}
+	nav ul{
+	font-size: 14px; 
+}
+nav ul li {
+	padding: 12px 15px;
+	}
+header {
+	height: 200px;
+}
+	header h1, header h2 {
+		font-size: 45px;
+		width: 500px;
+	}
+	.icon_header {
+	background-image: url(Image/Logo_fb.png);
+	background-size: 110px 110px;
+	background-repeat: no-repeat;
+	width: 110px;
+	height: 110px;
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 35px;
+}
+.header_social_networks {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: -20px;
+	margin-right: 20px;
+}
+.header_social_networks a img {
+	width: 30px;
+	height: 30px;
+}
+
+.header_social_networks a {
+	width: 30px;
+	height: 30px;
+	margin-left: 15px;
+	float: right;
+}
+.information img {
+	width: 250px;
+	height: 160px;
+	border-radius: 20px;
+	margin: 10px;
+	margin-right: 0px;
+	margin-top: 30px; 
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+
+.information h2 {
+	font-size: 40px;
+	margin-left: 50px;
+}
+.information p {
+	font-size: 20px;
+}
+.information-text ul {
+	font-size: 20px;
+	text-align: left;
+}
+}
+
+
+/**/
+
+
+
+
+
+@media(max-width: 1020px){
+	nav {
+		height: 110px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	nav ul {
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 20px;
+	}
+	nav ul li {
+		border-left: 0px solid #000000;
+}
+header {
+	height: 265px;
+}
+header h1, header h2 {
+		margin-top: 5px; 
+		font-size: 45px;
+		width: 500px;
+		margin: 0px auto;
+	}
+}
+
+@media(max-width: 800px){
+	nav {
+		height: 110px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	nav ul {
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 20px;
+	}
+	nav ul li {
+		border-left: 0px solid #000000;
+}
+header {
+	height: 260px;
+}
+header h1, header h2 {
+		margin-top: 5px; 
+		font-size: 40px;
+		width: 500px;
+		margin: 0px auto;
+	}
+	.information {
+	display: block;
+    text-align: center;
+}
+
+	.information img {
+	width: 310px;
+	height: 170px;
+	border-radius: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+.information h2 {
+	font-size: 30px;
+}
+.information p {
+	font-size: 16px;
+}
+.information-text ul {
+	font-size: 16px;
+	text-align: left;
+}
+.icon_header {
+	background-image: url(Image/Logo_fb.png);
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+}
+
+@media(max-width: 685px){
+	nav {
+		height: 70px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	nav ul {
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 15px;
+	}
+	nav ul li {
+		border-left: 0px solid #000000;
+}
+header {
+	height: 200px;
+}
+header h1, header h2 {
+		margin-top: 5px; 
+		font-size: 35px;
+		width: 500px;
+		margin: 0px auto;
+	}
+
+	.information {
+	display: block;
+    text-align: center;
+}
+
+	.information img {
+	width: 240px;
+	height: 140px;
+	border-radius: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+.information h2 {
+	font-size: 30px;
+}
+.information p {
+	font-size: 16px;
+}
+.information-text ul {
+	font-size: 16px;
+	text-align: left;
+}
+.icon_header {
+	background-image: url(Image/Logo_fb.png);
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 5px;
+}
+nav ul li {
+	padding: 5px 20px;
+}
+.header_social_networks a img {
+	width: 25px;
+	height: 25px;
+}
+
+.header_social_networks a {
+	width: 25px;
+	height: 25px;
+	margin-left: 15px;
+	float: right;
+}
+}
+
+@media(max-width: 550px){
+	nav {
+		height: 70px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	nav ul {
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 13px;
+	}
+	nav ul li {
+		border-left: 0px solid #000000;
+}
+header {
+	height: 170px;
+}
+header h1, header h2 {
+	padding-top: 10px;
+		font-size: 27px;
+		width: 400px;
+		margin: 0px auto;
+	}
+
+.information h2 {
+	font-size: 26px;
+}
+.information p {
+	font-size: 16px;
+}
+.icon_header {
+	background-image: url(Image/Logo_fb.png);
+	background-size: 60px 60px;
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 25px;
+}
+nav ul li {
+	padding: 0px 15px;
+}
+.header_social_networks a img {
+	width: 20px;
+	height: 20px;
+	margin-right: -10px;
+}
+
+.header_social_networks a {
+	width: 20px;
+	height: 20px;
+	margin-left: 15px;
+	float: right;
+	margin-top: 5px;
+	margin-right: -10px;
+}
+.information-text {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 15px;
+}
+
+.information {
+	display: block;
+    text-align: center;
+}
+
+	.information img {
+	width: 190px;
+	height: 120px;
+	border-radius: 20px;
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+.information-text ul {
+	font-size: 14px;
+	text-align: left;
+}
+}
+
+@media(max-width: 485px){
+	nav {
+		height: 70px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	nav ul {
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 13px;
+	}
+	nav ul li {
+		border-left: 0px solid #000000;
+}
+header {
+	height: 170px;
+}
+header h1, header h2 {
+		margin-top: 5px; 
+		font-size: 27px;
+		width: 300px;
+		margin: 0px auto;
+	}
+
+.information h2 {
+	font-size: 26px;
+}
+.information p {
+	font-size: 16px;
+}
+.icon_header {
+	background-image: url(Image/Logo_fb.png);
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	margin-left: 5px;
+}
+.block_header a{
+	margin-top: 25px;		
+}
+nav ul li {
+	padding: 0px 15px;
+}
+.header_social_networks a img {
+	width: 15px;
+	height: 15px;
+	margin-right: -10px;
+}
+
+.header_social_networks a {
+	width: 15px;
+	height: 15px;
+	margin-left: 15px;
+	float: right;
+	margin-top: 12px;
+	margin-right: -10px;
+}
+.information-text {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 15px;
+}
+
+.information {
+	display: block;
+    text-align: center;
+}
+
+	.information img {
+	width: 190px;
+	height: 110px;
+	border-radius: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+.information-text ul {
+	font-size: 14px;
+	text-align: left;
+}
+}
+
+@media(max-width: 485px){
+	nav {
+		height: 70px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	nav ul {
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 13px;
+	}
+	nav ul li {
+		border-left: 0px solid #000000;
+}
+header {
+	height: 170px;
+}
+header h1, header h2 {
+		margin-top: 5px; 
+		font-size: 25px;
+		width: 300px;
+		margin: 0px auto;
+	}
+
+.information h2 {
+	font-size: 26px;
+}
+.information p {
+	font-size: 16px;
+}
+.icon_header {
+	background-image: url(Image/Logo_fb.png);
+	background-size: 45px 45px;
+	background-repeat: no-repeat;
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	margin-left: 5px;
+}
+.block_header a{
+	margin-top: 25px;		
+}
+nav ul li {
+	padding: 0px 15px;
+}
+.header_social_networks a img {
+	width: 15px;
+	height: 15px;
+	margin-right: -10px;
+}
+
+.header_social_networks a {
+	width: 15px;
+	height: 15px;
+	margin-left: 15px;
+	float: right;
+	margin-top: 12px;
+	margin-right: -10px;
+}
+.information-text {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 15px;
+}
+
+.information {
+	display: block;
+    text-align: center;
+}
+
+	.information img {
+	width: 150px;
+	height: 90px;
+	border-radius: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+.information-text ul {
+	font-size: 14px;
+	text-align: left;
+}
+}
